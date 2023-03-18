@@ -1,20 +1,132 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background:#FFCC99;
     font-family: 'Roboto Mono', sans-serif;
     font-size: 18px;
     font-weight: normal;
 }
-
+.container{
+    box-sizing: border-box;
+    max-width: 1000px;
+    margin: 0;
+    padding: 0;
+    margin:20px;
+}
 .card{
     background: #FFCC;
     border-radius: 10px;
-    padding-left: 10px;
+    padding: 10px;
     border-left: 10px solid #000;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .pic{
     border-radius: 15px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
+.tbl{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.soc{
+    margin: 20px 0px;
+}
+.btn{
+    display: block;
+    background: #000;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.5s ease;
+}
+.btn:hover{
+    background: #246;
+    opacity: 0.8;
+    color: orange;
+}
+.ggg{
+    width: 48px;
+    height: 48px;
+    text-align: center;
+}
+.list li{
+    padding-left:2px;
+    border-bottom: solid grey;
+    margin-left: 2px;
+}
+.tbl td{
+    padding: 10px;
+}
+.tbl th{
+    padding: 10px;
+}
+.tbl td:hover{
+    background: #fffeee;
+    opacity: 0.8;
+}
+.linkschool{
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    transition: all 0.5s ease;
+    color: black;
+}
+.tbl th{
+    background: #fffeee;
+}
+.area{
+    background:#fffeee;
+    border: none;
+    height: 25px;
+    border-radius: 8px;
+    background: transparent;
+    border-bottom: 2px solid grey;
+    padding: 4px;
+    outline: none;
+}
+.pole{
+    display: flex;
+}
+.msg{
+    width: 100%;
+    height: 200px;
+}
+.label{
+    display: block;
+}
+.blk{
+    width: 50%;
+}
+.mess{
+    margin-top: 20px;
+}
+.nm{
+    width: 50%;
+}
+@media(max-width: 500px){
+    .pic{
+        width:200px;
+    }
+    .tbl{
+        width: 100px;
+    }
+}
+
+

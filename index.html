@@ -8,66 +8,70 @@
     <title>My Resume</title>
 </head>
 <body>
-    <img  class="pic" src="https://sun9-56.userapi.com/impg/-lMkH3gtKVG7NxfWczrVZBUoP9CKkWqwcPT_VQ/6nfld8AlcHY.jpg?size=768x898&quality=95&sign=611a25704953b503192141496bfd8ee4&type=album" width="400" alt="Photo">
-    <div class="info, card">
-        <h1>Макар Лаврентьев</h1>
-        <p>Я обучаюсь <strong>в школе</strong> и прохожу курс по <strong>Веб-разработке</strong></p>
-        <p>Я люблю <em>программировать</em> и <em>заниматься спортом</em></p>
-        <p><strong>Соц.Сети:</strong></p>
-        <a href="https://vk.com/pilip4enok" target="_blank">VK</a>
-    </div>
-    <hr>
-    <div class="card">
-        <h2>Мои увлечения:</h2>
-        <ul>
-            <li>Гитара</li>
-            <li>Программирование</li>
-            <li>Езда на велосипеде</li>
-            <li>Формула 1</li>
-        </ul>
-    </div>
-    <hr>
-    <div class="card">
-        <h2>Опыт работы</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Навзание</th>
-                    <th>Должность</th>
-                    <th>Год</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>17 Гимназия</td>
-                    <td>Обучающийся</td>
-                    <td>2014-2018</td>
-                </tr>
-                <tr>
-                    <td>1 Лицей</td>
-                    <td>Обучающийся</td>
-                    <td>2018-сейчас</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <hr>
-    <div class="card">
-        <h2>Связаться со мной</h2>
-        <div>
-            <label for="text">Ваше имя:</label>
-            <input type="text" id="text" placeholder="Введите имя">
+    <div class="container">
+        <img  class="pic" src="https://sun9-56.userapi.com/impg/-lMkH3gtKVG7NxfWczrVZBUoP9CKkWqwcPT_VQ/6nfld8AlcHY.jpg?size=768x898&quality=95&sign=611a25704953b503192141496bfd8ee4&type=album" width="400" alt="Photo">
+        <div class="info, card">
+            <h1>Макар Лаврентьев</h1>
+            <p>Я обучаюсь <strong>в школе</strong> и прохожу курс по <strong>Веб-разработке</strong></p>
+            <p>Я люблю <em>программировать</em> и <em>заниматься спортом</em></p>
+            <p class="soc"><strong>Соц.Сети:</strong></p>
+            <a href="https://vk.com/pilip4enok" target="_blank" class="btn ggg">VK</a>
         </div>
-        <div>
-            <label for="email">Ваш Email:</label>
-            <input type="email" id="email" placeholder="Введите Email">
+        <hr>
+        <div class="card">
+            <h2>Мои увлечения:</h2>
+            <ul class="list">
+                <li>Гитара</li>
+                <li>Программирование</li>
+                <li>Езда на велосипеде</li>
+                <li>Формула 1</li>
+            </ul>
         </div>
-        <div>
-            <label for="message">Ваше сообщение:</label>
-            <br>
-            <textarea name="message" id="message" cols="30" rows="10"placeholder="Введите сообщение..."></textarea>
+        <hr>
+        <div class="card">
+            <h2>Опыт работы</h2>
+            <table class="tbl">
+                <thead>
+                    <tr>
+                        <th>Навзание</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a class="linkschool" target="_blank" href="http://sch17petrozavodsk.narod.ru/">17 Гимназия</a></td>
+                        <td>Обучающийся</td>
+                        <td>2014-2018</td>
+                    </tr>
+                    <tr>
+                        <td><a class="linkschool" target="_blank" href="https://lyceum1.karelschool.ru/?ysclid=lf9u5z05nb8133336">1 Лицей</a></td>
+                        <td>Обучающийся</td>
+                        <td>2018-сейчас</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-        <button>Отправить</button>
+        <hr>
+        <div class="card">
+            <h2>Связаться со мной</h2>
+            <div class="pole">
+                <div class="blk">
+                    <label for="text" class="label">Ваше имя:</label>
+                    <input type="text" id="text" class="area nm" placeholder="Введите имя">
+                </div>
+                <div class="blk">
+                    <label for="email" class="label">Ваш Email:</label>
+                    <input type="email" class="area nm" id="email" placeholder="Введите Email">
+                </div>
+            </div>
+            <div class="mess">
+                <label for="message">Ваше сообщение:</label>
+                <br>
+                <textarea name="message" class="area msg" id="message" cols="30" rows="10"placeholder="Введите сообщение..."></textarea>
+            </div>
+            <button class="btn bbt">Отправить</button>
+        </div>
     </div>
 </body>
 </html>
