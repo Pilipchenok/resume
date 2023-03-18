@@ -15,7 +15,7 @@ body{
     max-width: 1000px;
     margin: 0;
     padding: 0;
-    margin:20px;
+    margin: auto;
 }
 .card{
     background: #FFCC;
@@ -126,6 +126,9 @@ body{
     }
     .tbl{
         width: 100px;
+    }
+    .container{
+        margin:20px;
     }
 }
 
